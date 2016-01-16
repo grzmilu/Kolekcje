@@ -131,7 +131,7 @@ public class Zadanie2 extends JFrame implements ActionListener {
         if (source == itemExit) {
             dispose();
         } else if (source == itemAboutProgram) {
-            JOptionPane.showMessageDialog(this, "Program sortuje adresy\nPaweł Grzmil");
+            JOptionPane.showMessageDialog(this, "Program sortuje ksiazke adresowa\nPaweł Grzmil");
         } else if (source == bAdd) {
             addPerson();
         }
